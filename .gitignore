@@ -1,0 +1,21 @@
+# Secrets & credentials
+.env
+*.key
+*.pem
+credentials.json
+token.json
+.gauth.json
+.accounts.json
+client_secret_*.json
+.mcp.json
+
+# Workspace temp files
+workspace/*
+!workspace/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/settings.local.json
