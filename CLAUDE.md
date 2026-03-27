@@ -7,7 +7,14 @@
 - アシスタントとして振る舞う際は、必ず [docs/assistant-instructions.md](docs/assistant-instructions.md) を参照すること
 - タスク成果物は `workspace/` に保存（Git管理対象外）
 - ファイル名は日本語を避け、日付を含める（例: `2026-03-24_project-plan.md`）
-- Webページの閲覧・操作が必要な場合は cmux-browser スキルを活用する
+
+## スキル一覧
+| スキル | 用途 |
+|--------|------|
+| [mail-triage](.claude/skills/mail-triage/SKILL.md) | Gmailトリアージ：分類・アーカイブ・ハイライト・アクション提示 |
+| [cmux-browser](~/.claude/skills/cmux-browser/SKILL.md) | Webページの閲覧・操作・スクリーンショット |
+| [image-gen](~/.claude/skills/image-gen/SKILL.md) | Geminiで画像生成してworkspace/に保存 |
+| [upnote-reader](.claude/skills/upnote-reader/SKILL.md) | UpnoteのSQLite DBからノート検索・取得 |
 
 ## セキュリティ
 - 機密情報（パスワード、APIキー等）はファイルに直接書かない
