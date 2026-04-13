@@ -7,7 +7,7 @@ token.json
 .gauth.json
 .accounts.json
 client_secret_*.json
-.mcp.json
+# .mcp.json is tracked (MCP server config for this project)
 
 # Workspace temp files
 workspace/*

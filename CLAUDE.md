@@ -15,6 +15,7 @@
 | [cmux-browser](~/.claude/skills/cmux-browser/SKILL.md) | Webページの閲覧・操作・スクリーンショット |
 | [image-gen](~/.claude/skills/image-gen/SKILL.md) | Geminiで画像生成してworkspace/に保存 |
 | [upnote-reader](.claude/skills/upnote-reader/SKILL.md) | UpnoteのSQLite DBからノート検索・取得 |
+| [flight-search](.claude/skills/flight-search/SKILL.md) | 子どもの一時帰国・渡英フライト検索（学期日程→Kiwi検索→UM判定→提案） |
 
 ## セキュリティ
 - 機密情報（パスワード、APIキー等）はファイルに直接書かない
