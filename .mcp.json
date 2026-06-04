@@ -6,16 +6,17 @@
     },
     "google-workspace": {
       "type": "stdio",
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "run", "--directory",
-        "/Users/eiji.araki/Library/Application Support/Claude/Claude Extensions/local.dxt.taylor-wilsdon.workspace-mcp",
-        "python",
-        "/Users/eiji.araki/Library/Application Support/Claude/Claude Extensions/local.dxt.taylor-wilsdon.workspace-mcp/main.py"
+        "workspace-mcp",
+        "--single-user"
       ],
       "env": {
+        "USER_GOOGLE_EMAIL": "eiji.araki@gmail.com",
+        "GOOGLE_CLIENT_SECRET_PATH": "${HOME}/dev/personal-assistant/client_secret_2_942952180559-35b676vcdrculg08aptqaui2trur7e6m.apps.googleusercontent.com.json",
+        "WORKSPACE_MCP_CREDENTIALS_DIR": "${HOME}/dev/personal-assistant/.credentials",
         "WORKSPACE_MCP_PORT": "8001",
-        "GOOGLE_CLIENT_SECRET_PATH": "/Users/eiji.araki/dev/personal-assistant/client_secret_942952180559-35b676vcdrculg08aptqaui2trur7e6m.apps.googleusercontent.com.json"
+        "OAUTHLIB_INSECURE_TRANSPORT": "1"
       }
     }
   }
