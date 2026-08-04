@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "kiwi-com-flight-search": {
+    "serpapi": {
       "type": "http",
-      "url": "https://mcp.kiwi.com"
+      "url": "https://mcp.serpapi.com/${SERPAPI_API_KEY}/mcp"
     },
     "google-workspace": {
       "type": "stdio",
